@@ -1,5 +1,8 @@
-const menu_button = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
+const hamburger_icon = hamburger.querySelector('span');
+const mobile_menu = document.querySelector('.mobile-menu');
 
-menu_button.addEventListener('click', function() {
-    this.classList.toggle('is-active');
+hamburger.addEventListener('click', () =>{
+    hamburger_icon.innerText = hamburger_icon.innerText === 'menu' ? 'close' : 'menu';
+    mobile_menu.classList.toggle('is-open');
 })
