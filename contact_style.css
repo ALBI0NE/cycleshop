@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin-top: 75px;
+  width: 100%;
+  padding: 20px 15%;
+  background-color: rgb(96, 77, 83);
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--white);
+}
+
+.col-1 a,
+.col-2 a {
+  text-decoration: none;
+  display: flex;
+  color: var(--white);
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.footer h3 {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+.col-1 a:hover,
+.col-2 a:hover {
+  color: var(--white-shadow);
+}
